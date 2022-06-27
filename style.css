@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    width: 300px;
+    height: 550px;
+    border: 1px solid black;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    background-color: rgb(10, 10, 10);
+}
+
+.screen {
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tur {
+    width: 5rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    background-color: rgb(92, 91, 91);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.start {
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    background-color: rgb(3, 79, 3);
+    border: none;
+    color: rgb(14, 240, 14);
+    font-size: 1.2rem;
+}
+
+.start:hover{
+    background-color: rgb(2, 44, 2);
+}
+
+.tur:hover{
+    background-color: rgb(42, 32, 32);
+}
